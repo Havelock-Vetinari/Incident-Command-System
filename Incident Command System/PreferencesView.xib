@@ -42,7 +42,7 @@
                     </textFieldCell>
                 </textField>
                 <textField identifier="hipchatAPIToken" toolTip="HipChat V2 Personal API Token" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2rA-Sv-w9w">
-                    <rect key="frame" x="144" y="205" width="333" height="22"/>
+                    <rect key="frame" x="144" y="205" width="309" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="75p-8Y-7pm">
                         <font key="font" metaFont="system"/>
@@ -140,9 +140,23 @@ Gw
                     <rect key="frame" x="19" y="33" width="16" height="16"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                 </progressIndicator>
+                <button focusRingType="none" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ska-JM-d27">
+                    <rect key="frame" x="459" y="207" width="18" height="18"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="NSFollowLinkFreestandingTemplate" imagePosition="only" alignment="center" focusRingType="none" imageScaling="proportionallyUpOrDown" inset="2" id="FT8-ip-CrW">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="goForKeyWithSender:" target="-1" id="mVN-0Z-WUc"/>
+                    </connections>
+                </button>
             </subviews>
             <point key="canvasLocation" x="103.5" y="148.5"/>
         </customView>
         <userDefaultsController representsSharedInstance="YES" id="KhK-B4-5QT"/>
     </objects>
+    <resources>
+        <image name="NSFollowLinkFreestandingTemplate" width="14" height="14"/>
+    </resources>
 </document>

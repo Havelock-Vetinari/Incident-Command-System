@@ -65,6 +65,12 @@ class PreferencesViewController: NSViewController, NSTextFieldDelegate, Resource
         self.dismissViewController(self)
     }
     
+    @IBAction func goForKey(sender: Any) {
+        if let url = URL(string: "https://api.hipchat.com/account/api"), NSWorkspace.shared().open(url) {
+            print("default browser was successfully opened")
+        }
+    }
+    
     override func controlTextDidEndEditing(_ obj: Notification) {
         preferencesHipChat.hipChatService.apiKey = apiTokenField?.stringValue
         reloadPanel()
