@@ -80,10 +80,6 @@ class ICSViewController: NSViewController {
             message: buildWelcomeMessage(withICUsers: icUsers, andWithLIOUsers: lioUsers, andTaskRecord: taskRecord?.stringValue),
             toRoom: destinationRoom
         )
-        
-        
-        
-        
     }
     
     @IBAction func stopICS(sender: NSButton) {
@@ -130,6 +126,12 @@ class ICSViewController: NSViewController {
         
         icToken?.delegate = self.userTokenFieldDelegate
         lioToken?.delegate = self.userTokenFieldDelegate
+    }
+    
+    override func viewDidAppear() {
+        if (hipchat?.hipChatService.apiKey?.isEmpty) ?? false {
+            showPreferences(sender: self)
+        }
     }
     
     @IBAction func showPreferences(sender:Any) {
