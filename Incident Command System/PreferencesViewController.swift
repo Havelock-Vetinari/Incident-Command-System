@@ -40,6 +40,7 @@ class PreferencesViewController: NSViewController, NSTextFieldDelegate, Resource
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.sharedUserDefaultsController.appliesImmediately = false
         self.icTokenField?.delegate = self.userFieldTokenDelagate
         self.lioTokenField?.delegate = self.userFieldTokenDelagate
         self.progressIndicator?.startAnimation(self)
