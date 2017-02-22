@@ -69,4 +69,11 @@ class UserTokenFieldDelegate:NSObject, NSTokenFieldDelegate {
         
         return validTokens
     }
+    
+    func control(_ control: NSControl, isValidObject obj: Any?) -> Bool {
+        if let tokens:[User] = control.objectValue as? [User] {
+            return !(tokens.contains(){$0.mentionName.isEmpty})
+        }
+        return true
+    }
 }
