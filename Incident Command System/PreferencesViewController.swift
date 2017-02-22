@@ -99,6 +99,5 @@ class PreferencesViewController: NSViewController, NSTextFieldDelegate, Resource
             self.progressIndicator?.isHidden = true;
             
         }
-    }
-    
+    }    
 }
