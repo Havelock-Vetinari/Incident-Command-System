@@ -7,6 +7,7 @@
 //
 
 import Cocoa
+import LetsMove
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
@@ -19,6 +20,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     let userDefaults:UserDefaults = UserDefaults.standard
     
     var hipChat:HipChat?
+    
+    func applicationWillFinishLaunching(_ notification: Notification) {
+        PFMoveToApplicationsFolderIfNecessary()
+    }
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         hipChat = HipChat(
