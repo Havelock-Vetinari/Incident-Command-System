@@ -7,14 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		583F9CA01E5231D500AB1F09 /* HipChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583F9C9F1E5231D500AB1F09 /* HipChat.swift */; };
 		583F9CA21E52E10F00AB1F09 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583F9CA11E52E10F00AB1F09 /* User.swift */; };
 		5840F82B1E55CD57007E3D20 /* UserTokenFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5840F82A1E55CD57007E3D20 /* UserTokenFieldDelegate.swift */; };
 		585EA25F1E4DFD2500608527 /* ICSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585EA25D1E4DFD2500608527 /* ICSViewController.swift */; };
 		585EA2601E4DFD2500608527 /* ICSView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 585EA25E1E4DFD2500608527 /* ICSView.xib */; };
 		585EA2631E4DFFF700608527 /* HipChatService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585EA2621E4DFFF700608527 /* HipChatService.swift */; };
 		5862C4B61E58FF170088462E /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5862C4B51E58FF170088462E /* Room.swift */; };
-		5862C4B81E5B26C80088462E /* UserTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5862C4B71E5B26C80088462E /* UserTransformer.swift */; };
 		587DB4471E51DD0400B5FDC5 /* Siesta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 587DB43A1E51CC7000B5FDC5 /* Siesta.framework */; };
 		587DB4481E51DD0400B5FDC5 /* Siesta.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 587DB43A1E51CC7000B5FDC5 /* Siesta.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		587DB44A1E51DD2800B5FDC5 /* Siesta.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 587DB4491E51DD2800B5FDC5 /* Siesta.framework.dSYM */; };
@@ -27,6 +25,8 @@
 		58DD013E1E5E097400C9129B /* LetsMove.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58DD013D1E5E097400C9129B /* LetsMove.framework */; };
 		58DD013F1E5E097400C9129B /* LetsMove.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 58DD013D1E5E097400C9129B /* LetsMove.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		58DD01411E5E09A000C9129B /* LetsMove.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 58DD01401E5E09A000C9129B /* LetsMove.framework.dSYM */; };
+		58DD014B1E5E2EA900C9129B /* HipChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DD014A1E5E2EA900C9129B /* HipChat.swift */; };
+		58DD014D1E5E2EB700C9129B /* UserTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DD014C1E5E2EB700C9129B /* UserTransformer.swift */; };
 		58DE2CD11DED940D007264B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DE2CD01DED940D007264B9 /* AppDelegate.swift */; };
 		58DE2CD31DED940D007264B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58DE2CD21DED940D007264B9 /* Assets.xcassets */; };
 		58DE2CD61DED940D007264B9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58DE2CD41DED940D007264B9 /* MainMenu.xib */; };
@@ -80,14 +80,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		583F9C9F1E5231D500AB1F09 /* HipChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HipChat.swift; path = "Incident Command System/HipChat.swift"; sourceTree = "<group>"; };
 		583F9CA11E52E10F00AB1F09 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		5840F82A1E55CD57007E3D20 /* UserTokenFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTokenFieldDelegate.swift; sourceTree = "<group>"; };
 		585EA25D1E4DFD2500608527 /* ICSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICSViewController.swift; sourceTree = "<group>"; };
 		585EA25E1E4DFD2500608527 /* ICSView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ICSView.xib; sourceTree = "<group>"; };
 		585EA2621E4DFFF700608527 /* HipChatService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HipChatService.swift; sourceTree = "<group>"; };
 		5862C4B51E58FF170088462E /* Room.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
-		5862C4B71E5B26C80088462E /* UserTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTransformer.swift; sourceTree = "<group>"; };
 		587DB43A1E51CC7000B5FDC5 /* Siesta.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Siesta.framework; path = Carthage/Build/Mac/Siesta.framework; sourceTree = "<group>"; };
 		587DB4491E51DD2800B5FDC5 /* Siesta.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Siesta.framework.dSYM; path = Carthage/Build/Mac/Siesta.framework.dSYM; sourceTree = "<group>"; };
 		587DB4661E51F76800B5FDC5 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/Mac/SwiftyJSON.framework; sourceTree = "<group>"; };
@@ -98,6 +96,8 @@
 		5899F7AA1E54653A00086564 /* PreferencesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferencesView.xib; sourceTree = "<group>"; };
 		58DD013D1E5E097400C9129B /* LetsMove.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LetsMove.framework; path = Carthage/Build/Mac/LetsMove.framework; sourceTree = "<group>"; };
 		58DD01401E5E09A000C9129B /* LetsMove.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = LetsMove.framework.dSYM; path = Carthage/Build/Mac/LetsMove.framework.dSYM; sourceTree = "<group>"; };
+		58DD014A1E5E2EA900C9129B /* HipChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HipChat.swift; sourceTree = "<group>"; };
+		58DD014C1E5E2EB700C9129B /* UserTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTransformer.swift; sourceTree = "<group>"; };
 		58DE2CCD1DED940D007264B9 /* Incident Command System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Incident Command System.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58DE2CD01DED940D007264B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58DE2CD21DED940D007264B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -142,13 +142,12 @@
 		585EA2611E4DFF4300608527 /* HipChatConnection */ = {
 			isa = PBXGroup;
 			children = (
+				58DD014A1E5E2EA900C9129B /* HipChat.swift */,
 				585EA2621E4DFFF700608527 /* HipChatService.swift */,
-				583F9C9F1E5231D500AB1F09 /* HipChat.swift */,
 				583F9CA11E52E10F00AB1F09 /* User.swift */,
 				5862C4B51E58FF170088462E /* Room.swift */,
-				5862C4B71E5B26C80088462E /* UserTransformer.swift */,
 			);
-			name = HipChatConnection;
+			path = HipChatConnection;
 			sourceTree = "<group>";
 		};
 		587DB4391E51CC7000B5FDC5 /* Frameworks */ = {
@@ -164,14 +163,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		58DD01491E5E2DA600C9129B /* Incident Command System */ = {
+			isa = PBXGroup;
+			children = (
+				58DE2CD01DED940D007264B9 /* AppDelegate.swift */,
+				58DE2CD21DED940D007264B9 /* Assets.xcassets */,
+				58DE2CD41DED940D007264B9 /* MainMenu.xib */,
+				58DE2CD71DED940D007264B9 /* Info.plist */,
+				585EA25D1E4DFD2500608527 /* ICSViewController.swift */,
+				585EA25E1E4DFD2500608527 /* ICSView.xib */,
+				58DD014C1E5E2EB700C9129B /* UserTransformer.swift */,
+				5899F7A91E54653A00086564 /* PreferencesViewController.swift */,
+				5899F7AA1E54653A00086564 /* PreferencesView.xib */,
+				5840F82A1E55CD57007E3D20 /* UserTokenFieldDelegate.swift */,
+				5895196E1E5C592F0072CD6C /* Application.swift */,
+			);
+			path = "Incident Command System";
+			sourceTree = "<group>";
+		};
 		58DE2CC41DED940D007264B9 = {
 			isa = PBXGroup;
 			children = (
-				585EA2611E4DFF4300608527 /* HipChatConnection */,
 				5898958B1E4C9AF6007C752F /* Cartfile */,
-				58DE2CCF1DED940D007264B9 /* Incident Command System */,
-				58DE2CDF1DED940D007264B9 /* Incident Command SystemTests */,
-				58DE2CEA1DED940D007264B9 /* Incident Command SystemUITests */,
+				58DE2CCF1DED940D007264B9 /* Source */,
+				58DE2CDF1DED940D007264B9 /* Tests */,
+				58DE2CEA1DED940D007264B9 /* UITests */,
 				58DE2CCE1DED940D007264B9 /* Products */,
 				587DB4391E51CC7000B5FDC5 /* Frameworks */,
 			);
@@ -187,38 +203,32 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		58DE2CCF1DED940D007264B9 /* Incident Command System */ = {
+		58DE2CCF1DED940D007264B9 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				58DE2CD01DED940D007264B9 /* AppDelegate.swift */,
-				58DE2CD21DED940D007264B9 /* Assets.xcassets */,
-				58DE2CD41DED940D007264B9 /* MainMenu.xib */,
-				58DE2CD71DED940D007264B9 /* Info.plist */,
-				585EA25D1E4DFD2500608527 /* ICSViewController.swift */,
-				585EA25E1E4DFD2500608527 /* ICSView.xib */,
-				5899F7A91E54653A00086564 /* PreferencesViewController.swift */,
-				5899F7AA1E54653A00086564 /* PreferencesView.xib */,
-				5840F82A1E55CD57007E3D20 /* UserTokenFieldDelegate.swift */,
-				5895196E1E5C592F0072CD6C /* Application.swift */,
+				585EA2611E4DFF4300608527 /* HipChatConnection */,
+				58DD01491E5E2DA600C9129B /* Incident Command System */,
 			);
-			path = "Incident Command System";
+			path = Source;
 			sourceTree = "<group>";
 		};
-		58DE2CDF1DED940D007264B9 /* Incident Command SystemTests */ = {
+		58DE2CDF1DED940D007264B9 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				58DE2CE01DED940D007264B9 /* Incident_Command_SystemTests.swift */,
 				58DE2CE21DED940D007264B9 /* Info.plist */,
 			);
+			name = Tests;
 			path = "Incident Command SystemTests";
 			sourceTree = "<group>";
 		};
-		58DE2CEA1DED940D007264B9 /* Incident Command SystemUITests */ = {
+		58DE2CEA1DED940D007264B9 /* UITests */ = {
 			isa = PBXGroup;
 			children = (
 				58DE2CEB1DED940D007264B9 /* Incident_Command_SystemUITests.swift */,
 				58DE2CED1DED940D007264B9 /* Info.plist */,
 			);
+			name = UITests;
 			path = "Incident Command SystemUITests";
 			sourceTree = "<group>";
 		};
@@ -360,12 +370,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5895196F1E5C592F0072CD6C /* Application.swift in Sources */,
+				58DD014B1E5E2EA900C9129B /* HipChat.swift in Sources */,
+				58DD014D1E5E2EB700C9129B /* UserTransformer.swift in Sources */,
 				5840F82B1E55CD57007E3D20 /* UserTokenFieldDelegate.swift in Sources */,
 				585EA25F1E4DFD2500608527 /* ICSViewController.swift in Sources */,
 				5862C4B61E58FF170088462E /* Room.swift in Sources */,
-				583F9CA01E5231D500AB1F09 /* HipChat.swift in Sources */,
 				58DE2CD11DED940D007264B9 /* AppDelegate.swift in Sources */,
-				5862C4B81E5B26C80088462E /* UserTransformer.swift in Sources */,
 				583F9CA21E52E10F00AB1F09 /* User.swift in Sources */,
 				585EA2631E4DFFF700608527 /* HipChatService.swift in Sources */,
 				5899F7AB1E54653A00086564 /* PreferencesViewController.swift in Sources */,
@@ -516,7 +526,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
-				INFOPLIST_FILE = "Incident Command System/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Incident Command System/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pl.net.julian.IncidentCommandSystem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -533,7 +543,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
-				INFOPLIST_FILE = "Incident Command System/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Incident Command System/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pl.net.julian.IncidentCommandSystem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
