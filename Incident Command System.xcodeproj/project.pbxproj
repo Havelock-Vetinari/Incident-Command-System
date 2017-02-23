@@ -218,8 +218,7 @@
 				58DE2CE01DED940D007264B9 /* Incident_Command_SystemTests.swift */,
 				58DE2CE21DED940D007264B9 /* Info.plist */,
 			);
-			name = Tests;
-			path = "Incident Command SystemTests";
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		58DE2CEA1DED940D007264B9 /* UITests */ = {
@@ -228,8 +227,7 @@
 				58DE2CEB1DED940D007264B9 /* Incident_Command_SystemUITests.swift */,
 				58DE2CED1DED940D007264B9 /* Info.plist */,
 			);
-			name = UITests;
-			path = "Incident Command SystemUITests";
+			path = UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
