@@ -110,7 +110,7 @@ class ICSViewController: NSViewController {
     private func buildWelcomeMessage(withICUsers icUsers:[User]?, andWithLIOUsers lioUsers:[User]?, andTaskRecord taskRecord:String?) -> String {
         let ic:String = (icUsers?.map(){$0.description}.joined(separator: ", ")) ?? ""
         let lio:String = (lioUsers?.map(){$0.description}.joined(separator: ", ")) ?? ""
-        var message:String = "Rozpoczynam proces Incydent Command System!\n\n👨‍🚒 Dowódctwo: \(ic)\n📡 Łączność i Komunikacja: \(lio)"
+        var message:String = "Rozpoczynam proces Incydent Command System!\n\n👨‍🚒 Dowództwo: \(ic)\n📡 Łączność i Komunikacja: \(lio)"
         if let record = taskRecord {
             message += "\n Powiązane z zadaniem \(record)"
         }
